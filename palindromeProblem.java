@@ -1,9 +1,6 @@
-public class palindromeProblem {
-    public static void main(String[] args) {
-
-        isPalindrome(121);
-    }
-    public static boolean isPalindrome (int x ){
+class palindromeProblem {
+    public boolean isPalindrome(int x) {
+        
         if(x<0)
             return false;
         int reversed=0, number=x;
@@ -19,10 +16,6 @@ public class palindromeProblem {
             return true;
         else
             return false;
-
-
-
-
 
     }
 }
